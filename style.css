@@ -92,6 +92,45 @@ section {
     background-position: center;
 }
 
+.gabungan{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.home-img{
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: .2rem solid var(--main-color);
+}
+
+.home-img .circle-spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0);
+    width: 100%;
+    height: 100%;
+    border-radius: 80%;
+    border-top: .3rem solid var(--second-bg-color);
+    border-bottom: .2rem solid var(--second-bg-color);
+    border-left: .2rem solid var(--main-color);
+    border-right: .2rem solid var(--main-color);
+    animation: aboutSpinner 7s linear infinite;
+}
+
+
 .home-content {
     max-width: 60rem;
     z-index: 99;
@@ -99,7 +138,7 @@ section {
 
 .home-content h1 {
     position: relative;
-    display: inline-block;
+    display:flexbox;
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
