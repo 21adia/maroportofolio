@@ -97,7 +97,7 @@ section {
     justify-content: space-between;
     width: 100%;
 }
-
+/* 
 .home-img {
     position: relative;
     width: 25rem;
@@ -129,7 +129,7 @@ section {
     border-right: .2rem solid var(--main-color);
     animation: aboutSpinner 7s linear infinite;
 }
-
+ */
 
 .home-content {
     max-width: 60rem;
